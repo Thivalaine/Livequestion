@@ -1,0 +1,396 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Crete Round", serif;
+}
+
+/* SECTION 1 */
+
+button.btn.btn-primary {
+	border-radius: 30px;
+	background-color: #ED008C;
+}
+
+.navbar-custom { 
+	background-color: #1A2D34; 
+} 
+
+a.navbar-brand {
+	color: white;
+}
+
+a.nav-link.dropdown-toggle {
+	color: white;
+}
+
+#premiereSection {
+	background:url("Images/objet.png");
+	background-size: cover;
+	border-bottom-right-radius: 200% 75%;
+	border-bottom-left-radius: 200% 75%;
+	height: 1170px;
+}
+
+div.container-fluid {
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.texteIntroduction {
+	font-size: 90px;
+	padding-top: 200px;
+	margin-left: 16%;
+	color: white;
+}
+
+.paragrapheDescription {
+	color: white;
+	font-size: 25px;
+	margin-left: 16%;
+}
+
+@media screen and (max-width:618px) {
+.paragrapheDescription {
+	color: white;
+	font-size: 20px;
+	margin-left: 16%;
+}
+}
+
+button.btn.btn-info {
+	border-radius: 30px;
+	margin-left: 16%;
+	margin-top: 2%;
+	width: 9%;
+	padding: 1%;
+	background-color: #ED008C;
+	border-color: #ED008C;
+}
+
+#deuxiemeSection {
+	background-color: white;
+	height: 400px;
+}
+
+.icone {
+	float:left;
+	margin-left: 18%;
+	margin-top:5%;
+}
+
+.icone2 {
+	float:left;
+	margin-top:5%;
+	margin-left: 5%;
+}
+
+@media screen and (max-width: 1413px) {
+.icone2 {
+	float:left;
+	margin-top:5%;
+	margin-left: 26%;
+}
+}
+
+.icone3 {
+	float:left;
+	margin-top:5%;
+	margin-left: 5%;
+}
+
+@media screen and (max-width: 1413px) {
+.icone3 {
+	float:left;
+	margin-top:5%;
+	margin-left: 26%;
+}
+}
+
+#troisiemeSectionEntiere {
+	background-color: #F8F9FD;
+	height: 1000px;
+}
+
+.sousTitre {
+	text-align: center;
+}
+
+.paragrapheSoustitre {
+	text-align: center;
+}
+
+button.btn.btn-light {
+	color: #ED008C;
+}
+
+button.btn.btn-light:hover {
+	background-color: #ED008C;
+	color: white;
+}
+
+.imagePresentation {
+	margin-left: 20%;
+	float: left;
+}
+
+@media screen and (max-width: 616px) {
+.imagePresentation {
+	margin-left: 8%;
+	float: left;
+	width: 78%;
+}
+}
+
+.coteGauche {
+	float:left;
+	margin-left: 80px;
+}
+
+
+div.carousel-item.active {
+	background-color: #F8F9FD;
+}
+
+.titreTextePresentation {
+	font-size: 25px;
+}
+
+.textePresentation {
+	float: left;
+	margin-left: 5%;
+
+}
+
+.oldAlo {
+	border-bottom: 3px solid #E70188;
+	padding-bottom: 3px;
+	width:100px;
+}
+
+.imageUtilisateur {
+	float: left;
+	border-radius: 50%;
+	object-fit: cover;
+	width: 50px;
+	height: 50px;
+	justify-content: center;
+	/* align-items permet de centrer les images et les contenues */
+	align-items: center;
+	/* transition faite pendant 1s */
+	transition: all 1s ease;
+}
+
+#interneSection {
+	float:left;
+	background-color: white;
+}
+
+.texteCoteImage{
+	margin-left: 5px;
+}
+
+.imagePresentation2 {
+	margin-right: 20%;
+	float: right;
+}
+
+@media screen and (max-width: 616px) {
+.imagePresentation2 {
+	margin-right: 8%;
+	float: right;
+	width: 78%;
+}
+}
+
+.coteDroit {
+	float:right;
+	margin-right: 80px;
+}
+
+.imageUtilisateur2 {
+	float: left;
+	border-radius: 50%;
+	object-fit: cover;
+	width: 50px;
+	height: 50px;
+	justify-content: center;
+	/* align-items permet de centrer les images et les contenues */
+	align-items: center;
+	/* transition faite pendant 1s */
+	transition: all 1s ease;
+}
+
+.texteCoteImage2 {
+	margin-right: 5px;
+}
+
+#interneSection2 {
+	float:left;
+	background-color: white;
+}
+
+/* QUATRIEME SECTION */
+
+#quatriemeSection {
+	background-color: #1A2D34;
+	height: 500px;
+}
+
+.Nulla {
+	float:left;
+	margin-top: 10%;
+	margin-left: 35%;
+}
+
+.imageNulla {
+	float:left;
+	width: 70px;
+}
+
+.texteNulla {
+	float:left;
+	color: white;
+	margin-top: 2%;
+	font-size: 30px;
+}
+
+#cinquiemeSection {
+	background-color: #E70188;
+	height: 500px;
+	border-bottom-right-radius: 100% 75%;
+	border-bottom-left-radius: 100% 75%;
+}
+
+.Etiam {
+	text-align: center;
+	color: white;
+	padding-top: 3%;
+}
+
+.texteEtiam {
+	text-align: center;
+	color: white;
+	margin-top: 1%;
+}
+
+
+.boiteimage {
+	float: left;
+	margin-left: 31%;
+	border:2px solid #FEFCFD;
+	border-radius: 5px;
+	background: #FEFCFD;
+}
+
+.imageboiteimage {
+	float:left;
+	margin-top: 7px;
+	margin-left: 20px;
+	width: 20%;
+}
+
+.texteboiteimage {
+	float:left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#sixiemeSection {
+	background-color: white;
+	height: 1233px;
+	border-bottom-right-radius: 100% 75%;
+	border-bottom-left-radius: 100% 75%;
+}
+
+
+.TitreFAQ {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.TexteDescriptionFAQ {
+	text-align: center;
+}
+
+.faq_titre{
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.faq_titre h2 {
+    font-size: 50px;
+
+}
+.faq_titre p {
+    font-size: 20px;
+
+}
+
+.collapsible {
+  background-color: #ffffff;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  margin-bottom: 2%;
+  margin-left: 30%;
+  width: 40%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  color: black;
+  border: solid;
+  border-color: #E2E2E2;
+  border-radius: 5px;
+}
+
+.active, .collapsible:hover {
+  background-color: #D4A2CE;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  width: 40%;
+  margin-left: 30%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #F6F6F6;
+}
+
+.lien_question {
+  text-align: center;
+  padding-top: 3%; 
+}
+
+#septiemeSection {
+	height: 250px;
+	background-color: #1A2D34;
+}
+
+.ligne {
+	border-top: 1px solid white;
+	width: 72%;	
+	margin: 0 auto;
+	margin-top: 7%;
+}
